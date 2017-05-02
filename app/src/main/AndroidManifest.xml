@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aio_5.location_voiture">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Accueil">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity android:name=".Accueil_recherche" />
+        <activity android:name=".Presentation_service" />
+        <activity android:name=".List_agence" />
+        <activity android:name=".Accueil_recherche_voiture" />
+        <activity android:name=".Recherche_voiture_agence" />
+        <activity android:name=".List_voiture_agence" />
+        <activity android:name=".List_tout_voiture" />
+        <activity android:name=".Recherche_par_marque" />
+        <activity android:name=".List_par_marque" />
+        <activity android:name=".Recherche_par_prix" />
+        <activity android:name=".List_par_prix"></activity>
+		
+		
+    </application>
+
+</manifest>
